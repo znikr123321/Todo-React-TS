@@ -10,9 +10,9 @@ interface ChildProps {
 
 const App: React.FC = () =>{
     const [todo, setTodo] = useState<ChildProps[]>([
-        {id:1, title: 'cock', description: 'pisya'},
-        {id:2, title: 'cock2', description: 'pisya2'},
-        {id:3, title: 'cock3', description: 'pisya3'}]
+        {id:1, title: 'qwe', description: 'qwe'},
+        {id:2, title: 'qwe2', description: 'qwe2'},
+        {id:3, title: 'qwe3', description: 'qwe3'}]
     );
 
     const addItem = (title:string, description:string) =>{
